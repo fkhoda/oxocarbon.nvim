@@ -416,4 +416,5 @@ vim.api.nvim_set_hl(0, "VimwikiList", {link = "markdownListMarker"})
 vim.api.nvim_set_hl(0, "VimwikiLink", {link = "markdownUrl"})
 vim.api.nvim_set_hl(0, "VimwikiCode", {link = "markdownCode"})
 vim.api.nvim_set_hl(0, "FlashLabel", {fg = oxocarbon.base05, bg = oxocarbon.base00, bold = true})
+vim.api.nvim_set_hl(0, "SnacksPickerListCursorLine", {fg = oxocarbon.base05, bg = oxocarbon.base02})
 return {oxocarbon = oxocarbon}
