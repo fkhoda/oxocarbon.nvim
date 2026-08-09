@@ -246,6 +246,21 @@
 
 (custom-set-face! :Directory [] {:fg oxocarbon.base08 :bg oxocarbon.none})
 
+;; mini.icons / nvim-web-devicons category colors
+;; dedicated so file/dir icon colors don't silently piggyback on
+;; Function/Diagnostic*/Constant (which drift out of sync between
+;; the dark and light palettes)
+
+(custom-set-face! :MiniIconsAzure [] {:fg oxocarbon.base11 :bg oxocarbon.none})
+(custom-set-face! :MiniIconsBlue [] {:fg oxocarbon.base09 :bg oxocarbon.none})
+(custom-set-face! :MiniIconsCyan [] {:fg oxocarbon.base15 :bg oxocarbon.none})
+(custom-set-face! :MiniIconsGreen [] {:fg oxocarbon.base13 :bg oxocarbon.none})
+(custom-set-face! :MiniIconsGrey [] {:fg oxocarbon.base04 :bg oxocarbon.none})
+(custom-set-face! :MiniIconsOrange [] {:fg oxocarbon.base12 :bg oxocarbon.none})
+(custom-set-face! :MiniIconsPurple [] {:fg oxocarbon.base14 :bg oxocarbon.none})
+(custom-set-face! :MiniIconsRed [] {:fg oxocarbon.base10 :bg oxocarbon.none})
+(custom-set-face! :MiniIconsYellow [] {:fg oxocarbon.base07 :bg oxocarbon.none})
+
 ;; prompts
 
 (custom-set-face! :EndOfBuffer [] {:fg oxocarbon.base01 :bg oxocarbon.none})
@@ -271,6 +286,9 @@
 (custom-set-face! :DiffAdded [] {:fg oxocarbon.base07 :bg oxocarbon.none})
 (custom-set-face! :DiffChanged [] {:fg oxocarbon.base09 :bg oxocarbon.none})
 (custom-set-face! :DiffRemoved [] {:fg oxocarbon.base10 :bg oxocarbon.none})
+(custom-set-face! :Added [] {:link "DiffAdded"})
+(custom-set-face! :Changed [] {:link "DiffChanged"})
+(custom-set-face! :Removed [] {:link "DiffRemoved"})
 (custom-set-face! :DiffAdd [] {:bg "#122f2f" :fg oxocarbon.none})
 (custom-set-face! :DiffChange [] {:bg "#222a39" :fg oxocarbon.none})
 (custom-set-face! :DiffText [] {:bg "#2f3f5c" :fg oxocarbon.none})
