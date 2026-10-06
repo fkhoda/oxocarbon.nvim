@@ -742,4 +742,9 @@
 
 (custom-set-face! :FlashLabel [:bold] {:fg oxocarbon.base05 :bg oxocarbon.base00})
 
+;; snacks
+
+(custom-set-face! :SnacksPickerListCursorLine [] {:fg oxocarbon.base05 :bg oxocarbon.base02})
+(custom-set-face! :SnacksPickerDirectory [] {:fg oxocarbon.base12 :bg oxocarbon.none})
+
 { : oxocarbon }
