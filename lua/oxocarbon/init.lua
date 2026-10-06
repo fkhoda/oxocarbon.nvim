@@ -429,5 +429,7 @@ vim.api.nvim_set_hl(0, "VimwikiLink", {link = "markdownUrl"})
 vim.api.nvim_set_hl(0, "VimwikiCode", {link = "markdownCode"})
 vim.api.nvim_set_hl(0, "FlashLabel", {fg = oxocarbon.base05, bg = oxocarbon.base00, bold = true})
 vim.api.nvim_set_hl(0, "SnacksPickerListCursorLine", {fg = oxocarbon.base05, bg = oxocarbon.base02})
-vim.api.nvim_set_hl(0, "SnacksPickerDirectory", {fg = oxocarbon.base12, bg = oxocarbon.none})
+vim.api.nvim_set_hl(0, "SnacksPickerDirectory", {fg = oxocarbon.base09, bg = oxocarbon.none})
+vim.api.nvim_set_hl(0, "SnacksPickerDirectoryOpen", {fg = oxocarbon.base15, bg = oxocarbon.none})
+vim.api.nvim_set_hl(0, "SnacksPickerTree", {fg = oxocarbon.base02, bg = oxocarbon.none})
 return {oxocarbon = oxocarbon}

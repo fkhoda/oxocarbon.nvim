@@ -745,6 +745,8 @@
 ;; snacks
 
 (custom-set-face! :SnacksPickerListCursorLine [] {:fg oxocarbon.base05 :bg oxocarbon.base02})
-(custom-set-face! :SnacksPickerDirectory [] {:fg oxocarbon.base12 :bg oxocarbon.none})
+(custom-set-face! :SnacksPickerDirectory [] {:fg oxocarbon.base09 :bg oxocarbon.none})
+(custom-set-face! :SnacksPickerDirectoryOpen [] {:fg oxocarbon.base15 :bg oxocarbon.none})
+(custom-set-face! :SnacksPickerTree [] {:fg oxocarbon.base02 :bg oxocarbon.none})
 
 { : oxocarbon }
